@@ -14,4 +14,4 @@ pandas
 python-dotenv
 beautifulsoup4
 requests
-"pydantic[email]"
+pydantic[email]
