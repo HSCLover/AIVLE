@@ -3,6 +3,7 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
+  "runArgs": ["--user", "1000:1000"],
   "forwardPorts": [8888],
   "postCreateCommand": "pip install -r /workspace/AIVLE/requirements.txt",
   "customizations": {
