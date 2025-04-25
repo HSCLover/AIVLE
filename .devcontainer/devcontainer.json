@@ -3,7 +3,10 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "runArgs": ["--user", "1000:1000"],
+  "remoteUser": "vscode",         // 컨테이너 내부의 기본 유저를 "vscode"로
+  "runArgs": [
+    "--user", "1000:1000"         // 현재 WSL 유저(adan)의 UID:GID를 넘김
+  ],
   "forwardPorts": [8888],
   "postCreateCommand": "pip install -r requirements.txt",
   "customizations": {
