@@ -1,15 +1,14 @@
 {
-    "name": "langchain-jupyter",
-    "build": {
-      "dockerfile": "Dockerfile"
-    },
-    "forwardPorts": [8888],
-    "postCreateCommand": "pip install --upgrade pip && pip install jupyterlab langchain langchain-community openai tiktoken chromadb faiss-cpu",
-    "customizations": {
-      "vscode": {
-        "extensions": ["ms-python.python"],
-        "settings": {}
-      }
+  "name": "langchain-jupyter",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [8888],
+  "postCreateCommand": "pip install -r /workspace/AIVLE/requirements.txt",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"],
+      "settings": {}
     }
   }
-  
+}
