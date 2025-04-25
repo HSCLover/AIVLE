@@ -1,10 +1,16 @@
 FROM python:3.10
 
+# 사용자 추가
+RUN useradd -ms /bin/bash vscode && \
+    apt-get update && apt-get install -y sudo && \
+    echo "vscode ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
+
 WORKDIR /workspace
 
-RUN apt-get update && \
-    apt-get install -y git && \
-    pip install --upgrade pip
+COPY requirements.txt .
+
+RUN pip install --upgrade pip && \
+    pip install -r requirements.txt
 
 EXPOSE 8888
 
