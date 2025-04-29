@@ -1,0 +1,17 @@
+jupyterlab
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langchain-chroma
+langchain-text-splitters
+openai
+tiktoken
+chromadb
+faiss-cpu
+pymupdf
+pandas
+python-dotenv
+beautifulsoup4
+requests
+pydantic[email]
