@@ -1,0 +1,111 @@
+1. 데이터베이스 생성
+
+CREATE DATABASE mysql_study;
+SHOW DATABASES;
+
+USE mysql_study;
+
+
+2. 테이블 생성
+
+CREATE TABLE book
+(
+	bookid INT PRIMARY KEY AUTO_INCREMENT,
+    bookname VARCHAR(32),
+    publisher VARCHAR(32),
+    price INT
+) ENGINE=INNODB;
+
+CREATE TABLE orders
+(
+	orderid INT PRIMARY KEY AUTO_INCREMENT,
+    custid INT,
+    bookid INT,
+    saleprice INT,
+    orderdate DATE
+) ENGINE=INNODB;
+
+CREATE TABLE customer
+(
+	custid INT PRIMARY KEY AUTO_INCREMENT,
+    custname VARCHAR(32) NOT NULL,
+    address VARCHAR(32),
+    phone VARCHAR(32)
+) ENGINE=INNODB;
+
+
+3. Book 테이블 정보넣기
+
+INSERT INTO Book (bookname, publisher, price) VALUES('축구의역사', '굿스포츠', 7000);
+
+INSERT INTO Book (bookname, publisher, price) VALUES('축구아는 여자', '나무수', 13000);
+
+INSERT INTO Book (bookname, publisher, price) VALUES('축구의 이해', '대한미디어', 22000);
+
+INSERT INTO Book (bookname, publisher, price) VALUES('골프 바이블', '대한미디어', 35000);
+
+INSERT INTO Book (bookname, publisher, price) VALUES('피겨 교본', '굿스포츠', 8000);
+
+INSERT INTO Book (bookname, publisher, price) VALUES('역도 단계별기술', '굿스포츠', 6000);
+
+INSERT INTO Book (bookname, publisher, price) VALUES('야구의 추억', '이상미디어', 20000);
+
+INSERT INTO Book (bookname, publisher, price) VALUES('야구를 부탁해', '이상미디어', 13000);
+
+INSERT INTO Book (bookname, publisher, price) VALUES('올림픽 이야기', '삼성당', 7500);
+
+INSERT INTO Book (bookname, publisher, price) VALUES('Olympic Champions', 'Pearson', 13000);
+
+
+4. Book 테이블에 정보가 제대로 들어갔는지 확인
+
+SELECT * FROM Book;
+
+
+5. Orders 테이블 정보넣기
+
+INSERT INTO Orders (custid, bookid, saleprice, orderdate) VALUES(1, 1, 6000, '2021-07-01');
+
+INSERT INTO Orders (custid, bookid, saleprice, orderdate) VALUES(1, 3, 21000, '2021-07-03');
+
+INSERT INTO Orders (custid, bookid, saleprice, orderdate) VALUES(2, 5, 8000, '2021-07-03');
+
+INSERT INTO Orders (custid, bookid, saleprice, orderdate) VALUES(3, 6, 6000, '2021-07-04');
+
+INSERT INTO Orders (custid, bookid, saleprice, orderdate) VALUES(4, 7, 20000, '2021-07-05');
+
+INSERT INTO Orders (custid, bookid, saleprice, orderdate) VALUES(1, 2, 12000, '2021-07-07');
+
+INSERT INTO Orders (custid, bookid, saleprice, orderdate) VALUES(4, 8, 13000, '2021-07-07');
+
+INSERT INTO Orders (custid, bookid, saleprice, orderdate) VALUES(3, 10, 12000, '2021-07-08');
+
+INSERT INTO Orders (custid, bookid, saleprice, orderdate) VALUES(2, 10, 7000, '2021-07-09');
+
+INSERT INTO Orders (custid, bookid, saleprice, orderdate) VALUES(3, 8, 13000, '2021-07-10');
+
+
+6. Orders 테이블에 정보가 제대로 들어갔는지 확인
+SELECT * FROM Orders;
+
+
+7. Customer 테이블 정보넣기
+INSERT INTO Customer (custname, address, phone) VALUES('아이언맨', '경기도 광주', '050-1234-4321');
+
+INSERT INTO Customer (custname, address, phone) VALUES('블랙위도우', '강원도 인제', '060-1234-4321');
+
+INSERT INTO Customer (custname, address, phone) VALUES('스파이더맨', '전라북도 광주', '070-1234-4321');
+
+INSERT INTO Customer (custname, address, phone) VALUES('헐크', '경기도 성남', '080-1234-4321');
+
+INSERT INTO Customer (custname, address, phone) VALUES('닥터 스트레인지', '제주특별시', '');
+
+
+8. Customer 테이블에 정보가 제대로 들어갔는지 확인
+SELECT * FROM Customer;
+
+
+9. 외래키 설정
+alter table Orders add FOREIGN KEY(bookid) REFERENCES Book(bookid);
+alter table Orders add FOREIGN KEY(custid) REFERENCES Customer(custid);
+

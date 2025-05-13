@@ -1,0 +1,1 @@
+SELECT * FROM book; -- book 테이블의 모든 열(*)을 조회
