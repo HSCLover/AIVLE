@@ -7,7 +7,7 @@
 - 연락처 : 010-8650-0657 / E-Mail : kkej1009@naver.com
 
 ### 자격증
-AICE ASSOCIATE(2025년 취득득)
+AICE ASSOCIATE(2025년 취득)
 
 ### 가능 언어 / 툴
 #### 협업 툴
