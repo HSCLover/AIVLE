@@ -132,8 +132,9 @@ Git, Github, Docker
 ### 11. 미니프로젝트 3차
 - 중소기업 쇼핑몰 구성하기
 1. 목표 시스템 구성도
-2. 인프라 구성도 - http://t.ly/sdi6c
-3. 프로토타입 제작 - https://www.figma.com/team_invite/redeem/DVV7LW5sIh4eqrMKnC1jbP
+2. 인프라 구성도 
+3. 프로토타입
+4. PPT
 
 ### 12. 클라우드의 이해
 1. 클라우드 개요
