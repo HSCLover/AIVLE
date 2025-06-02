@@ -23,7 +23,7 @@ Git, Github, Docker
 자동화 API 툴
 
 #### SerpAPI
-정보 수집 API 툴툴
+정보 수집 API 툴
 
 #### Python
 - scikitlearn, Tensorflow, Pythorch 등의 ML, DL
