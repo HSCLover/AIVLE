@@ -1,3 +1,22 @@
+# 포트폴리오
+## 개발자적 사고도 갖춘 종합 인재
+
+### 기본 정보
+- 이름 : 최동혁
+- 학력 : 울산대학교 IT융합전공 졸업예정
+- 연락처 : 010-8650-0657 / E-Mail : kkej1009@naver.com
+
+### 자격증
+AICE ASSOCIATE
+
+### 가능 언어 / 툴
+#### Python
+- Tensorflow 와 Pythorch 등 ML Tool
+- 
+
+
+
+
 # KT AIVLE SCHOOL 7기 학습 파일
 
 ## 목차
