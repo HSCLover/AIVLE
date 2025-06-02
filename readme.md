@@ -25,6 +25,11 @@ Git, Github, Docker
 #### < SerpAPI >
 정보 수집 API 툴
 
+#### < 개발 툴 >
+- VS CODE
+- Eclipes
+- WSL를 이용한 리눅스 가상화 환경 (VSCODE, Docker 연계)
+
 #### < Python >
 - scikitlearn, Tensorflow, Pythorch 등의 ML, DL
 - pandas, sckitlearn, matplotlib, seaborn 등의 전처리 및 시각화
