@@ -10,32 +10,32 @@
 AICE ASSOCIATE(2025년 취득)
 
 ### 가능 언어 / 툴
-#### 협업 툴
+#### < 협업 툴 >
 Git, Github, Docker
 
-#### Draw.io
+#### < Draw.io >
 구성도 작성 툴
 
-#### Figma
+#### < Figma >
 디자인 툴 (프로토타입 제작)
 
-#### Zapier Action
+#### < Zapier Action >
 자동화 API 툴
 
-#### SerpAPI
+#### < SerpAPI >
 정보 수집 API 툴
 
-#### Python
+#### < Python >
 - scikitlearn, Tensorflow, Pythorch 등의 ML, DL
 - pandas, sckitlearn, matplotlib, seaborn 등의 전처리 및 시각화
  
-#### Java, Kotlin
+#### < C, Java, Kotlin >
 - 기초 수준
 
-#### DB
-MS Access, MySQL
+#### < DB >
+- MS Access, MySQL
 
-#### 노코드 기반의 바이브 코딩 및 검수 가능
+#### < 노코드 기반의 바이브 코딩 및 검수 가능 >
 ---
 ### 프로젝트
 #### 1. 보험사 마케팅 활용을 위한 고객 군집화 모델링
