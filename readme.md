@@ -7,12 +7,34 @@
 - 연락처 : 010-8650-0657 / E-Mail : kkej1009@naver.com
 
 ### 자격증
-AICE ASSOCIATE
+AICE ASSOCIATE(2025년 취득득)
 
 ### 가능 언어 / 툴
+#### 협업
+Git, Github, Docker
+
+#### Draw.io
+구성도 작성 툴
+
+#### Zapier Action
+자동화 API 툴
+
+#### SerpAPI
+정보 수집 API 툴툴
+
 #### Python
-- Tensorflow 와 Pythorch 등 ML Tool
-- 
+- scikitlearn, Tensorflow, Pythorch 등의 ML, DL
+- pandas, sckitlearn, matplotlib, seaborn 등의 전처리 및 시각화
+ 
+#### Java, Kotlin
+- 기초 수준
+
+#### DB
+MS Access, MySQL
+
+#### 노코드 기반의 바이브 코딩 및 검수 가능
+
+### 프로젝트
 
 
 
