@@ -33,24 +33,25 @@ Git, Github, Docker
 #### < Python >
 - scikitlearn, Tensorflow, Pythorch 등의 ML, DL
 - pandas, sckitlearn, matplotlib, seaborn 등의 전처리 및 시각화
- 
-#### < C, Java, Kotlin >
-- 기초 수준
 
 #### < DB >
 - MS Access, MySQL
 
-#### < 노코드 기반의 바이브 코딩 및 검수 가능 >
+#### < 노코드 기반의 자동화 및 코딩,검수 >
 ---
 ### 프로젝트
 #### 1. 보험사 마케팅 활용을 위한 고객 군집화 모델링
 - 데이터 전처리 및 분석(군집화)를 통한 고객 정보 분석 및 제안
+
 
 #### 2. 노코드 기반 휴대폰 광고 영상 만들기
 - Custom GPT's 및 Sora를 활용
 - SerpAPI를 통한 정보 수집, Zapier Action을 통한 정보 자동 저장
 - Custom GPT's를 이용하여 위의 API들을 자동화, 수집한 데이터 분석 및 광고 영상 시나리오 작성
 - Sora를 이용하여 광고 영상 생성
+
+- 원하는 제품 등의 영상을 뽑기 위해서는 특화된 학습이 필요함
+
 
 #### 3. 중소기업의 신규 쇼핑몰 시스템 구축
 - Draw.io를 이용하여 목표시스템 구성도, 인프라 구성도 작성
