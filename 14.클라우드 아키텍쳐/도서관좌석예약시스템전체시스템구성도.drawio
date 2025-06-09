@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Whale/4.31.304.16 Safari/537.36" version="27.1.4">
   <diagram name="페이지-1" id="6oO_Q846ZIqZzXxWZ5Lk">
-    <mxGraphModel dx="1405" dy="1165" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,7 +53,7 @@
           <mxGeometry y="58" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ey847-6ZclXoTTAayA36-20" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="600" y="21.75" width="80" height="140" as="geometry" />
+          <mxGeometry x="490" y="620" width="80" height="140" as="geometry" />
         </mxCell>
         <mxCell id="ey847-6ZclXoTTAayA36-15" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudfront;fillColor=#F58536;gradientColor=none;" parent="ey847-6ZclXoTTAayA36-20" vertex="1">
           <mxGeometry x="1.75" width="76.5" height="93" as="geometry" />
@@ -339,6 +339,26 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1100" y="750" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="eHolgmbPMP6VJzxSiOHN-3" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="490" y="220" width="76.5" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="eHolgmbPMP6VJzxSiOHN-4" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="eHolgmbPMP6VJzxSiOHN-3">
+          <mxGeometry width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="eHolgmbPMP6VJzxSiOHN-5" value="S3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="eHolgmbPMP6VJzxSiOHN-3">
+          <mxGeometry x="18.25" y="110" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eHolgmbPMP6VJzxSiOHN-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ey847-6ZclXoTTAayA36-38" target="eHolgmbPMP6VJzxSiOHN-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="390" />
+              <mxPoint x="528" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eHolgmbPMP6VJzxSiOHN-8" value="UI 보관용" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="258" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
