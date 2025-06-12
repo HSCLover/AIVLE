@@ -1,0 +1,112 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Whale/4.32.315.15 Safari/537.36" version="27.1.4">
+  <diagram name="페이지-1" id="a8XkZNwbPZ8Sxz5OBATn">
+    <mxGraphModel dx="1333" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-1" value="" style="swimlane;startSize=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="70" y="50" width="660" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-4" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-1">
+          <mxGeometry x="50" y="30" width="560" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-5" value="로봇" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-4">
+          <mxGeometry x="10" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-6" value="센서" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-4">
+          <mxGeometry x="150" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="ftVBvXL_EQYiGVRd0Rw2-4" source="ftVBvXL_EQYiGVRd0Rw2-7" target="ftVBvXL_EQYiGVRd0Rw2-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-7" value="PLC/PAC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-4">
+          <mxGeometry x="290" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-8" value="HMI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-4">
+          <mxGeometry x="430" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-19" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-1">
+          <mxGeometry x="50" y="290" width="560" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-20" value="MES Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-19">
+          <mxGeometry x="20" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-22" value="SCADA Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-19">
+          <mxGeometry x="300" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-25" value="Historian DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-19">
+          <mxGeometry x="460" y="40" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-27" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-19">
+          <mxGeometry x="290" y="150" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-26" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/switch.svg;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-19">
+          <mxGeometry x="190" y="150" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-21" value="ERP Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-19">
+          <mxGeometry x="155" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-60" value="" style="group" vertex="1" connectable="0" parent="ftVBvXL_EQYiGVRd0Rw2-19">
+          <mxGeometry x="215" y="200" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-23" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.edge_gateway;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-60">
+          <mxGeometry x="25" width="50" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-59" value="Edge Gateway" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-60">
+          <mxGeometry y="50" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-2" value="" style="swimlane;startSize=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="900" y="80" width="700" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-14" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.waf_web_application_firewall;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-2">
+          <mxGeometry x="350" y="80" width="71.98" height="63.2" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-15" value="" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-2">
+          <mxGeometry x="60" y="70" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-29" value="" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=ips_ids;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-2">
+          <mxGeometry x="230" y="80" width="64" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-30" value="Web Server" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-2">
+          <mxGeometry x="40" y="220" width="590" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-31" value="디바이스 관리" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-30">
+          <mxGeometry x="30" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-32" value="데이터 시각화" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-30">
+          <mxGeometry x="162" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-37" value="외부 연동" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-30">
+          <mxGeometry x="310" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-38" value="분석" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-30">
+          <mxGeometry x="450" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-33" value="Historian DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-2">
+          <mxGeometry x="80" y="660" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-34" value="분석&lt;br&gt;DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-2">
+          <mxGeometry x="200" y="540" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-35" value="Backup&lt;div&gt;DB&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-2">
+          <mxGeometry x="80" y="540" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-57" value="데이터 분석" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-2">
+          <mxGeometry x="450" y="490" width="200" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-40" value="데이터 전처리" style="whiteSpace=wrap;html=1;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-57">
+          <mxGeometry x="40" y="30" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-55" value="모델 학습" style="whiteSpace=wrap;html=1;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-57">
+          <mxGeometry x="40" y="90" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-56" value="모델 배포" style="whiteSpace=wrap;html=1;" vertex="1" parent="ftVBvXL_EQYiGVRd0Rw2-57">
+          <mxGeometry x="40" y="150" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ftVBvXL_EQYiGVRd0Rw2-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;dashed=1;" edge="1" parent="1" source="ftVBvXL_EQYiGVRd0Rw2-25" target="ftVBvXL_EQYiGVRd0Rw2-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
