@@ -4,17 +4,44 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="puKy0jFDfKGZnQOC7gGv-1" value="디바이스" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="200" width="60" height="30" as="geometry" />
+        <mxCell id="Vy-Tc7UsugdHc5kTpcv5-5" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="200" height="530" as="geometry" />
         </mxCell>
-        <mxCell id="puKy0jFDfKGZnQOC7gGv-2" value="앱" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="145" y="198" width="30" height="30" as="geometry" />
+        <mxCell id="Vy-Tc7UsugdHc5kTpcv5-6" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="Vy-Tc7UsugdHc5kTpcv5-5">
+          <mxGeometry x="80" y="80" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="puKy0jFDfKGZnQOC7gGv-3" value="서버" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="230" y="200" width="50" height="30" as="geometry" />
+        <mxCell id="Vy-Tc7UsugdHc5kTpcv5-7" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="Vy-Tc7UsugdHc5kTpcv5-5">
+          <mxGeometry x="80" y="320" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="puKy0jFDfKGZnQOC7gGv-4" value="DB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="330" y="198" width="40" height="30" as="geometry" />
+        <mxCell id="Vy-Tc7UsugdHc5kTpcv5-8" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="50" width="270" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Vy-Tc7UsugdHc5kTpcv5-9" value="생체 데이터&amp;nbsp;&lt;div&gt;조회 서비스&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Vy-Tc7UsugdHc5kTpcv5-8">
+          <mxGeometry x="10" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vy-Tc7UsugdHc5kTpcv5-10" value="건강 통계 서비스" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Vy-Tc7UsugdHc5kTpcv5-8">
+          <mxGeometry x="10" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vy-Tc7UsugdHc5kTpcv5-11" value="이상감지/예측 서비스" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Vy-Tc7UsugdHc5kTpcv5-8">
+          <mxGeometry x="140" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vy-Tc7UsugdHc5kTpcv5-12" value="건강 분석 서비스" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Vy-Tc7UsugdHc5kTpcv5-8">
+          <mxGeometry x="140" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vy-Tc7UsugdHc5kTpcv5-13" value="약학 정보 조회 서비스" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Vy-Tc7UsugdHc5kTpcv5-8">
+          <mxGeometry x="10" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vy-Tc7UsugdHc5kTpcv5-14" value="알림 서비스" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Vy-Tc7UsugdHc5kTpcv5-8">
+          <mxGeometry x="140" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vy-Tc7UsugdHc5kTpcv5-15" value="회원 관리 서비스" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Vy-Tc7UsugdHc5kTpcv5-8">
+          <mxGeometry x="10" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vy-Tc7UsugdHc5kTpcv5-16" value="회원 서비스" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Vy-Tc7UsugdHc5kTpcv5-8">
+          <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vy-Tc7UsugdHc5kTpcv5-17" value="병원 조회 서비스" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Vy-Tc7UsugdHc5kTpcv5-8">
+          <mxGeometry x="140" y="40" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
