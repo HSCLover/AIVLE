@@ -1,0 +1,166 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Whale/4.32.315.15 Safari/537.36" version="27.1.5">
+  <diagram name="페이지-1" id="weNOcagYUisw4kWLGDwB">
+    <mxGraphModel dx="810" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OpCjIolIyomBsdUskFN5-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;쿠팡&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;WMS : 물류센터별 재고 현황 파악&lt;/span&gt;&lt;/p&gt;&lt;div style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;상품 피킹 및 포장재 선정 자동화&lt;/div&gt;&lt;div style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;랜덤스토우 배치&lt;/div&gt;&lt;div style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;상품 분류에 따라서 배치되어 있지 않음&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;판매 분석과 동선 분석을 통해&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;효율적인 배치를 구상&lt;/div&gt;&lt;div style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;실시간 처리 시스템&lt;/div&gt;&lt;div style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;처리할 주문을 모아두지 않고&lt;/div&gt;&lt;div style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;순차적으로 바로 처리함&lt;/div&gt;&lt;div style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;주문,유통 과정의 간소화 (엔드투엔드)&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="50" width="210" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;대한통운&lt;/h1&gt;&lt;p&gt;스마트 트럭 -&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;태블릿pc 단말을 이용한 배송 효율화&lt;/span&gt;&lt;/p&gt;&lt;p&gt;오더피킹 시스템 최적화 -&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;최적 동선 알고리즘&lt;/span&gt;&lt;/p&gt;&lt;p&gt;디팔레타이저 AI 알고리즘 기반 자동화&lt;/p&gt;&lt;p&gt;LoIS WMS - B2B2C 등의 환경에 대응하기 위한 WMS&lt;/p&gt;&lt;p&gt;&amp;gt; 물류 서비스 자동화 / 재고 일원화 및 경로 최적화 /&amp;nbsp;&lt;/p&gt;&lt;p&gt;피킹 구역과 보충 구역 재고 관리 / 피킹 순서 관리 (FIFO/LIFO)&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="50" width="210" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-7" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;아마존&lt;/h1&gt;&lt;div&gt;예측 배송 특허&lt;/div&gt;&lt;div&gt;데이터 수집 및 분석 /&amp;nbsp;&lt;/div&gt;&lt;div&gt;구매 예측 알고리즘으로 상품 구매 확률 계산 /&lt;/div&gt;&lt;div&gt;선제적 배송 준비 - 구매 가능성 높은 상품 예측 피킹 및 포장, 근거리 물류센터로 예측 이동, 배송 대기하고 운송장만 붙여서 바로 배송&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="30" width="230" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-8" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="350" width="160" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-9" value="센터 노동자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="OpCjIolIyomBsdUskFN5-8">
+          <mxGeometry x="60" y="60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-11" value="운송 노동자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="OpCjIolIyomBsdUskFN5-8">
+          <mxGeometry x="60" y="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-10" value="서비스 관리자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="OpCjIolIyomBsdUskFN5-8">
+          <mxGeometry x="60" y="560" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-12" value="물류 관리자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="OpCjIolIyomBsdUskFN5-8">
+          <mxGeometry x="60" y="290" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-13" value="서비스 영역" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="350" width="350" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-14" value="입출고 서비스" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-13">
+          <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-15" value="재고 관리 서비스" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-13">
+          <mxGeometry x="140" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-16" value="환경 관리 서비스" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-13">
+          <mxGeometry x="10" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-17" value="배송 추적 서비스" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-13">
+          <mxGeometry x="140" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-18" value="예측 분석 서비스" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-13">
+          <mxGeometry x="10" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-19" value="통계 서비스" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-13">
+          <mxGeometry x="140" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-20" value="상품 모니터링 서비스" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-13">
+          <mxGeometry x="10" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-21" value="장비 제어 서비스" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-13">
+          <mxGeometry x="140" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-22" value="알림 서비스" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-13">
+          <mxGeometry x="10" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-28" value="배송 / 운송 경로 최적화" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-13">
+          <mxGeometry x="140" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-23" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="350" width="670" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-24" value="물류 시스템" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-23">
+          <mxGeometry x="10" y="40" width="140" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-25" value="상품 정보 입력/조회" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-24">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-26" value="상품 식별 부여" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-24">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-27" value="상품 위치 부여/전달" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-24">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-29" value="재고 상황 관리" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-24">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-30" value="창고 적재량 관리" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-24">
+          <mxGeometry y="150" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-31" value="운송 시스템" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-23">
+          <mxGeometry x="170" y="40" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-32" value="주문별 최적 피킹" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-31">
+          <mxGeometry y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-33" value="실시간 운송/배송 상황 조회" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-31">
+          <mxGeometry y="60" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-59" value="- 내부(센터) + GPS(배송) 기반" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-31">
+          <mxGeometry y="90" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-34" value="배송지 최적 루트 조회" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-31">
+          <mxGeometry y="120" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-35" value="통계 분석 시스템" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-23">
+          <mxGeometry x="460" y="40" width="150" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-36" value="출고/주문 통계 분석" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-35">
+          <mxGeometry y="30" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-37" value="- 위치 기반 분석 (물류센터)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-35">
+          <mxGeometry y="60" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-60" value="- 가용성 분석" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-35">
+          <mxGeometry y="90" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-38" value="구매 예측" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-35">
+          <mxGeometry y="120" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-48" value="선제 배송 분류" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-35">
+          <mxGeometry y="150" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-40" value="환경 시스템" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-23">
+          <mxGeometry x="480" y="370" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-41" value="온습도 모니터링" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-40">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-42" value="최적 온습도 설정" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-40">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-43" value="온습도 제어 (기계제어)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-40">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-44" value="알림 서비스" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-23">
+          <mxGeometry x="330" y="370" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-45" value="사용자 배송 상황 알림" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-44">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-46" value="관리자 시스템 이상 알림" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-44">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-47" value="배송 배정 알림" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-44">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-50" value="장비 관리 시스템" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-23">
+          <mxGeometry x="10" y="240" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-51" value="센터 장비 모니터링(운송)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-50">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-52" value="센터 장비 배치 관리" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-50">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-53" value="장비 유지 보수" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-50">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-54" value="최적화 시스템" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-23">
+          <mxGeometry x="465" y="230" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-55" value="운송 경로 최적화" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-54">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpCjIolIyomBsdUskFN5-56" value="배송 경로 최적화" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpCjIolIyomBsdUskFN5-54">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
