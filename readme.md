@@ -61,6 +61,17 @@ Git, Github, Docker
 
 
 🏆
+
+[꾸미는데에 참고할만한 블로그]
+https://zzsza.github.io/development/2020/07/10/make-github-profile-readme/
+ 
+[꾸미는 용도로 쓰이는 툴들]
+· 브랜드 아이콘들 : https://simpleicons.org/
+· 깃허브에 내 커밋기록 리포트 쓰기 : https://github.com/anuraghazra/github-readme-stats
+· 뱃지 모아놓은 사이트 : https://github.com/Ileriayo/markdown-badges
+· 뱃지 만들기 :  https://shields.io/
+· 핀 관련 모아놓은 사이트 : https://github.com/matchai/awesome-pinned-gists
+
 .
 ```knowhow
 > 포트폴리오 작성 요령 <
