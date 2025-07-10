@@ -83,6 +83,14 @@ Zapier Action ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-t
 [1] 맡은 일 : 목표시스템 구성도 작성 및 최종 정리 / 프로토타입 제작
 [2] 느낀 점 : 
 
+#### 4. 항만 ITS 구축 제안
+- 목표 : ITS 구축 제안
+- 항만 도시를 배경으로 하여 C-ITS 구축 제안함.
+
+[1] 맡은 일 : 가술 자료 조사, 통합 인프라 구성도 작성
+[2] 느낀 점 : 
+
+
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
