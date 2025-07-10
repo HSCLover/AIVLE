@@ -64,6 +64,8 @@ Zapier Action ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-t
 #### < 노코드 기반의 자동화 및 코딩,검수 >
 ---
 ### 📋프로젝트
+
+### KT AIVLE SCHOOL
 #### 💼1. 보험사 마케팅 활용을 위한 고객 군집화 모델링
 - 데이터 전처리 및 분석(군집화)를 통한 고객 정보 분석 및 제안
 
