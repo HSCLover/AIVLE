@@ -1,5 +1,5 @@
 # 포트폴리오
-## 📌개발자적 사고도 갖춘 종합 인재📌
+## 📌개발자적 사고도 갖춘 DX 주도자 📌
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=HSClover)](https://github.com/anuraghazra/github-readme-stats)
 
 ### 👨‍💻기본 정보
